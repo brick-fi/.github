@@ -76,9 +76,9 @@ BrickFi provides **"the experience of participating in real estate income flow" 
 
 ```mermaid
 graph TD
-    User[User Wallet] --> Frontend[Frontend (Next.js)]
-    Frontend --> Contract1[Cashflow Token Contract (ERC-20)]
-    Contract1 --> Contract2[Distribution Contract (Admin Trigger)]
+    User[User Wallet] --> Frontend[Frontend]
+    Frontend --> Contract1[Cashflow Token Contract]
+    Contract1 --> Contract2[Distribution Contract]
     Contract2 --> Stablecoin[Stablecoin Transfer]
     Stablecoin --> User
 ```
