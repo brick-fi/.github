@@ -2,6 +2,12 @@
 
 **Build global real estate income from $50**
 
+[**Demo URL**](https://brickfi.vercel.app/) |
+[**One-Pager Pitch**](../one-pager-pitch.md) |
+[**Compliance Declaration**](../compliance-declaration.md) |
+[**Contract Repository**](https://github.com/brick-fi/contract) |
+[**Frontend Repository**](https://github.com/brick-fi/frontend)
+
 ---
 
 ## 1. Overview
