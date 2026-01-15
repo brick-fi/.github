@@ -161,30 +161,6 @@ BrickFi aims for a platform business model where platform utilization itself tra
 - **Explorer**: https://sepolia.mantlescan.xyz/
 - **Faucet**: https://faucet.sepolia.mantle.xyz/
 
-### Setup
-
-```bash
-# Install dependencies
-forge install
-
-# Configure environment
-cp .env.example .env
-# Edit .env with your PRIVATE_KEY
-```
-
-### Build & Test
-
-```bash
-# Build contracts
-forge build
-
-# Run tests
-forge test
-
-# With gas report
-forge test --gas-report
-```
-
 ### Get Test USDC
 
 ```bash
@@ -202,7 +178,7 @@ cast send 0xf6c6D352545Eb7316fD3034232ff7eF635325D6F \
 
 ### Deploy New Contracts
 
-See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
+See [DEPLOYMENT.md](https://github.com/brick-fi/contract/blob/main/DEPLOYMENT.md) for detailed deployment instructions.
 
 ---
 
@@ -253,6 +229,6 @@ See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
 
 ## Documentation
 
-- [DEPLOYMENT.md](./DEPLOYMENT.md) - Deployment guide
+- [Contract DEPLOYMENT.md](https://github.com/brick-fi/contract/blob/main/DEPLOYMENT.md) - Deployment guide
 - [Mantle Docs](https://docs.mantle.xyz/) - Network documentation
 - [Foundry Book](https://book.getfoundry.sh/) - Foundry documentation
